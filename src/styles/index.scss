@@ -3,9 +3,28 @@
 
 :root {
   font-family: 'Roboto', sans-serif;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-gray: #C4C4C4;
+  --color-second-gray: #BDBDBD;
+  --color-light-gray: #F2F2F2;
+  --color-yellow: #FFF200;
+  --color-light-red: #F3D0D0FF;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1524px;
+  padding: 0 22px;
+  margin: 0 auto;
+  height: 100%;
+
+  @media (max-width: 550px) {
+    padding: 0 20px;
+  }
 }
