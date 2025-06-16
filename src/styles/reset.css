@@ -1,0 +1,23 @@
+/* reset.scss */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1.5;
+}
+
+/* сброс отступов у заголовков, списков, параграфов */
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, figure, blockquote, dl, dd {
+    margin: 0;
+}
+
+ul, ol {
+    list-style: none;
+    padding-left: 0;
+}
