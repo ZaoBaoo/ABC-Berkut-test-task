@@ -1,0 +1,19 @@
+.wrapper {
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 550px) {
+    height: 400px;
+  }
+}
+
+.text {
+  font-size: 64px;
+  font-weight: 700;
+
+  @media (max-width: 550px) {
+    font-size: 32px;
+  }
+}

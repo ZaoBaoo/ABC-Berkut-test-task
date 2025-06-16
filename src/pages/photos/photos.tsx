@@ -2,7 +2,7 @@ import styles from './photos.module.scss'
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router'
 // components
-import { ImageView } from '@/components/Image-view'
+import { ImageView } from '@/pages/photos/fragments/image-view'
 // controllers
 import { photosController } from '@/controllers/photosController'
 // types

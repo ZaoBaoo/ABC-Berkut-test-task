@@ -1,6 +1,11 @@
 .home {
   padding-top: 114px;
   padding-bottom: 71px;
+
+  @media (max-width: 550px) {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
 }
 
 
