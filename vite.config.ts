@@ -8,7 +8,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/',
+  base: '/abc-berkut-test-task/',
   plugins: [react(), svgr()],
   resolve: {
     alias: {
