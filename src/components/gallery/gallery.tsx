@@ -12,7 +12,7 @@ const Gallery = ({ images }: GalleryProps) => {
     <div className={styles.innerImages}>
       {images.map((image) => (
         <Link to={`/photos/${image.id}`} key={image.id}>
-          <img className={styles.imageCard} src={image.urls.small} alt="" />
+          <img className={styles.imageCard} src={image.urls.regular} alt="" />
         </Link>
       ))}
     </div>
